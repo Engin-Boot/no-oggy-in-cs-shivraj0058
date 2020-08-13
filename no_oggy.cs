@@ -5,7 +5,7 @@ class NoOggyChecker
 {
   static void RemoveOggy(List<string> names)
   {
-    names.RemoveAll(i => i.StartsWith("oggy"));
+     names.RemoveAll(i => i.StartsWith("oggy"));
   }
   static bool OggyIsRemoved(List<string> names)
   {
